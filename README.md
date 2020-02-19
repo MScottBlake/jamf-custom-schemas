@@ -2,6 +2,12 @@
 
 Collection of Schemas for the new Application & Custom Settings within Jamf Pro.
 
-| Application | File |
-| ------------- | ------------- |
-| NoMAD | com.trusourcelabs.NoMAD.json |
+## Files Listing
+
+### NoMAD
+
+#### com.trusourcelabs.NoMAD.json
+The main preference file for NoMAD.
+
+#### menu.nomad.shares.json
+The File Servers menu within NoMAD.
