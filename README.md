@@ -11,3 +11,6 @@ The main preference file for NoMAD.
 
 #### menu.nomad.shares.json
 The File Servers menu within NoMAD.
+
+#### menu.nomad.actions.json
+The Actions menu within NoMAD.
