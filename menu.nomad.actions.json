@@ -21,11 +21,11 @@
                     "Display a modal dialog to the user",
                     "Display a notification in the notification center",
                     "A command that always returns false",
-                    "A command that always returns true",
+                    "A command that always returns true"
                 ]
             },
             "CommandOptions": {
-                "type": "string",
+                "type": "string"
             }
         }
     },
@@ -102,7 +102,7 @@
                                     "$ref": "#/definitions/CommandObject"
                                 }
                             }
-                        }
+                        ]
                     },
                     "Action": {
                         "description": "Command Set that make up the actual Action itself.",
@@ -118,7 +118,7 @@
                                     "$ref": "#/definitions/CommandObject"
                                 }
                             }
-                        }
+                        ]
                     },
                     "Post": {
                         "description": "Command Set that will happen after the Action commands are run.",
@@ -134,7 +134,7 @@
                                     "$ref": "#/definitions/CommandObject"
                                 }
                             }
-                        }
+                        ]
                     },
                     "GUID": {
                         "description": "Unique ID for the Action.",
@@ -190,6 +190,6 @@
                     }
                 }
             }
-        },
+        }
     }
 }
